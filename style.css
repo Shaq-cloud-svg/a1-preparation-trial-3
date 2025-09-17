@@ -1,0 +1,79 @@
+/* 1. Body selector */
+body#homepage {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+/* 2. Heading selector */
+h1 {
+  text-align: center;
+  color: #006400;
+  margin-top: 20px;
+  font-size: 2.5em;
+}
+
+/* 3. Paragraph selector */
+p {
+  text-align: center;
+  line-height: 1.8;
+  font-size: 18px;
+  margin: 20px;
+  color: #444;
+}
+
+/* 4. Image selector */
+img {
+  display: block;
+  margin: 20px auto;
+  border-radius: 15px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+  width: 60%;
+}
+
+/* 5. Nav container */
+#site-nav {
+  background-color: #006400;
+  padding: 10px;
+  text-align: center;
+}
+
+/* 6. Nav links */
+#site-nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  margin: 0 15px;
+  transition: color 0.3s;
+}
+
+/* 7. Nav link hover */
+#site-nav a:hover {
+  color: #ffd700;
+  text-decoration: underline;
+}
+
+/* 8. Footer selector */
+#site-footer {
+  background-color: #222;
+  color: white;
+  padding: 15px;
+  text-align: center;
+  margin-top: 30px;
+  font-size: 14px;
+}
+
+/* 9. Footer links */
+#site-footer a {
+  color: #ffcc00;
+  text-decoration: none;
+  margin: 0 8px;
+}
+
+/* 10. Footer link hover */
+#site-footer a:hover {
+  color: #ffffff;
+  text-decoration: underline;
+}
